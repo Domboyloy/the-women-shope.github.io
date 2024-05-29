@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment</title>
+    <style>
+        img{
+            width: 100px;
+        }
+    button{
+        border: 2px solid greenyellow;
+        align-items: center;
+        text-align: center;
+    }
+    a{
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+<h1>confirm your payment</h1>
+<div class="first-row">
+    <div class="owner">
+        <h3>owner</h3>
+        <div class="input-field">
+            <input type="text">
+        </div>
+    </div>
+    <div class="cvv">
+        <h3>cvv</h3>
+        <div class="input-field">
+            <input type="password">
+        </div>
+    </div>
+    <div class="second-row">
+        <div class="card-number">
+            <h3>card-number</h3>
+            <div class="input-field">
+                <input type="text">
+            </div>
+        </div>
+        <div class="third-row">
+                <h3>month/day/years</h3>
+                
+                <div class="selection">
+                    <div class="date">
+                        <select name="months" id="months">
+<option value="Jan">Jan</option>
+<option value="Feb">Feb</option>
+<option value="Mar">Mar</option>
+<option value="Apr">Apr</option>
+<option value="May">May</option>
+<option value="Jun">Jun</option>
+<option value="Jul">Jul</option>
+<option value="Aug">Aug</option>
+<option value="Sep">Sep</option>
+<option value="Oct">Oct</option>
+<option value="Nov">Nov</option>
+<option value="Dec">Dec</option>
+                        </select>
+                        <input type="day" name="day">
+                       <input type="years"name="years">     
+</div class="card">
+<img src="master.jpg"alt="master card">
+<img src="visa.jpg" alt="visa card">
+<img src="pay.jpg" alt="paypal">
+                </div>
+
+            </div>
+</div>
+<button><a href="last.html">confirm</a></button>
+    </div>
+</body>
+</html>
